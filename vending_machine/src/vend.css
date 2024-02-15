@@ -1,0 +1,114 @@
+
+body 
+{
+font-family: "Segoe UI";
+background-color:beige;
+}
+
+.centered
+{
+    margin: auto;
+    width: 100%;
+    padding: 8x;
+    text-align: center;
+}
+
+.border1    
+{
+    border-style: 'dotted';
+    border-width: 1;
+    border-color: 'lightGrey'
+}
+
+.border3
+{
+    border: 3px solid grey;
+    margin-bottom: 40px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: 20px
+  }
+
+.rounded{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+  
+
+.col1 {
+      margin-right:20px;
+      margin-bottom:10px;
+      border: solid 1px black;
+      height: 100px;
+      width:20%;
+  }
+
+.col2 {
+    margin-right: 20px;
+    margin-bottom:10px;
+    border: solid 1px black;
+    height: 100px;
+    width:20%;
+}
+
+.col3 {
+    margin-right: 20px;
+    margin-bottom:10px;
+    border: solid 1px black;
+    height: 100px;
+    width:20%;
+}
+
+.col4 {
+    margin-right: 20px;
+    margin-bottom:10px;
+    border: solid 1px black;
+    height: 100px;
+    width:20%;
+}
+
+.row {
+    width: 80%;
+}
+
+.yellow {
+    background-color: #f5d87c;
+    color: #000000;
+    text-align: center;
+}
+
+.green {
+    background-color: #16DF50;
+    color: #0000FF;
+    text-align: center;
+}
+
+.grey {
+    background-color: #808080;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+
+.button-line {
+    border-top: 2px solid black;
+    margin-bottom: 0.6rem;
+  }
+
+.container {
+    border: 3px solid black;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+  }
+.left {
+    margin-left:20px;
+}
